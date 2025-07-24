@@ -342,7 +342,7 @@ MOREALL=$(MAKE) install
 else #!WANT_SOURCE_INSTALL
 #PREFIX=/usr
 PREFIX=$(wildcard ~)/nh/install
-HACKDIR=$(PREFIX)/games/lib/nethackdir
+HACKDIR=$(PREFIX)/games/lib/xnethackdir
 SHELLDIR = $(PREFIX)/games
 VARDIRPERM = 0755
 VARFILEPERM = 0600
